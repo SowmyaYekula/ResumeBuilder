@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+       body {
+            background-color: pink;
+        }
+        .Table {
+            display: table;
+            margin-left: 500px;
+            margin-top: 100px;
+        }
+        .Heading {
+            display: table-row;
+            font-weight: bold;
+            text-align: center;
+            background-color: #148bb3;
+        }
+        .Row {
+            display: table-row;
+            background-color: #13e1e8;
+        }
+        .Cell {
+            display: table-cell;
+            border: solid;
+            border-width: thin;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        b {
+            color: #7a121b;
+        }
+        #tt {
+            text-align: center;
+        }
+        .button2 {
+            background-color: #008CBA;
+            font-size: 20px;
+        } 
+        </style>
+    </head>
+    <body>
+        <h1 align="center" style="color:blue;background-color:#abebc8; text-shadow:2px 2px powderblue;">
+        Welcome to IARE library management system</h1>
+        <div class="Table">
+        <div class="Heading">
+            <div class="Cell">
+                <p><b>Bookname</b></p>
+            </div>
+            <div class="Cell">
+                <p><b>Author</b></p>
+            </div>
+            <div class="Cell">
+                <p><b>ISBN number</b></p>
+            </div>
+            <div class="Cell">
+                <p><b>No. of copies</b></p>
+            </div>
+            <div class="Cell">
+                <p><b>e-Books</b></p>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell">
+                <p>Machine learning</p>
+            </div>
+            <div class="Cell">
+                <p>MC Graw Hill</p>
+            </div>
+            <div class="Cell">
+                <p>18951234</p>
+            </div>
+            <div class="Cell">
+                <p>25</p>
+            </div>
+            <div class="Cell">
+                <p><a href="http://profsite.um.ac.ir/~monsefi/machine-learning/pdf/Machine-Learning-Tom-Mitchell.pdf">MLe-book</a></p>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell">
+                <p>Artificial intelligence</p>
+            </div>
+            <div class="Cell">
+                <p>Peter norvig</p>
+            </div>
+            <div class="Cell">
+                <p>1895235</p>
+            </div>
+            <div class="Cell">
+                <p>20</p>
+            </div>
+            <div class="Cell">
+                <p><a href="http://www.freebookcentre.net/CompuScience/Free-Artificial-Intelligence-Books-Download.html">AIe-book</a></p>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell">
+                <p>Python</p>
+            </div>
+            <div class="Cell">
+                <p>Van rossum</p>
+            </div>
+            <div class="Cell">
+                <p>1895237</p>
+            </div>
+            <div class="Cell">
+                <p>15</p>
+            </div>
+            <div class="Cell">
+                <p><a href="http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf">PY e-book</a></p>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell">
+                <p>Web technologies</p>
+            </div>
+            <div class="Cell">
+                <p>parthasarthi</p>
+            </div>
+            <div class="Cell">
+                <p>1895234</p>
+            </div>
+            <div class="Cell">
+                <p>15</p>
+            </div>
+            <div class="Cell">
+                <p><a href="https://www.ncertbooks.guru/web-technology-pdf/#Download_Web_Technology_Notes_PDF">WTe-book</a></p>
+            </div>
+        </div>
+        </div>
+        <h2 align="center" style="color:#9c2594;">Click the below
+        button for further details<br><button
+        class="button2">click
+        here</button></h2>
+    </body>
+</html>
